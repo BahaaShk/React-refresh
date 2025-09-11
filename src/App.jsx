@@ -27,7 +27,8 @@ import Calculator from './components/projects-react/Calculator/Calculator'
 import ToggleBg from './components/ToggleBG/ToggleBg'
 import Hidden from './components/projects-react/HiddenSearchBar/HiddenSearchBAr'
 import Testimonials from './components/projects-react/Testimonials/Testimonials'
-
+import Accordion from './components/projects-react/Accordion/Accordion'
+import {accordionData} from './components/projects-react/Accordion/content'
 
 
 function App() {
@@ -41,7 +42,14 @@ function App() {
     <div>
       {/* <Hidden />
        */}
-       <Testimonials />
+       {/* <Testimonials /> */}
+    <div className="min-h-screen bg-gray-900 flex justify-center items-start p-10">
+      <div className="bg-gray-800 text-white rounded-lg shadow-lg w-full max-w-2xl divide-y divide-gray-700">
+        {accordionData.map((item, i) => (
+          <Accordion key={i} title={item.title} content={item.content} />
+        ))}
+      </div>
+    </div>
 {/* <Header /> */}
 {/* <MainContent /> */}
 {/* <Footer count={count} handler={handler} /> */}
