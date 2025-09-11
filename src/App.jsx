@@ -1,4 +1,4 @@
-// import './App.css'
+import './App.css'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
@@ -26,6 +26,7 @@ import Todo from './components/projects-react/Todo/Todo'
 import Calculator from './components/projects-react/Calculator/Calculator'
 import ToggleBg from './components/ToggleBG/ToggleBg'
 import Hidden from './components/projects-react/HiddenSearchBar/HiddenSearchBAr'
+import Testimonials from './components/projects-react/Testimonials/Testimonials'
 
 
 
@@ -38,7 +39,9 @@ function App() {
 
   return (
     <div>
-      <Hidden />
+      {/* <Hidden />
+       */}
+       <Testimonials />
 {/* <Header /> */}
 {/* <MainContent /> */}
 {/* <Footer count={count} handler={handler} /> */}
