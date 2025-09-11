@@ -15,7 +15,7 @@ if (e.target.className === 'container') {
   }
   return (
     <section className='container' style={{backgroundColor:bgColor}} onClick={handleClick}>
-{showInput ? (<input type='text' placeholder='Search ...' />) : (<FaSearch color='black' size={50} onClick={() => setShowInput(true)} />)}
+{showInput ? (<input type='text' placeholder='Search ...' />) : (<FaSearch cursor={'pointer'} color='black' size={50} onClick={() => setShowInput(true)} />)}
     </section>
   )
 }
