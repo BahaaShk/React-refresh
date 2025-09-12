@@ -28,7 +28,8 @@ import ToggleBg from './components/ToggleBG/ToggleBg'
 import Hidden from './components/projects-react/HiddenSearchBar/HiddenSearchBAr'
 import Testimonials from './components/projects-react/Testimonials/Testimonials'
 import Accordion from './components/projects-react/Accordion/Accordion'
-import {accordionData} from './components/projects-react/Accordion/content'
+import FormValidation from './components/projects-react/Form-Validation/FormValidation'
+
 
 
 function App() {
@@ -39,15 +40,12 @@ function App() {
     // }
 
   return (
-    <div className="min-h-screen bg-gray-900 flex justify-center items-center p-20">
+    <div className=''>
+      <FormValidation />
       {/* <Hidden />
        */}
        {/* <Testimonials /> */}
-       <article className="bg-gray-800 text-white rounded-lg shadow-lg w-full max-w-2xl divide-y p-10 divide-gray-700">
-        {accordionData.map((item, i) => (
-          <Accordion key={i} title={item.title} content={item.content} />
-        ))}
-      </article>
+     
 {/* <Header /> */}
 {/* <MainContent /> */}
 {/* <Footer count={count} handler={handler} /> */}
