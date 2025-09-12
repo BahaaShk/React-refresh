@@ -39,17 +39,15 @@ function App() {
     // }
 
   return (
-    <div>
+    <div className="min-h-screen bg-gray-900 flex justify-center items-center p-20">
       {/* <Hidden />
        */}
        {/* <Testimonials /> */}
-    <div className="min-h-screen bg-gray-900 flex justify-center items-start p-10">
-      <div className="bg-gray-800 text-white rounded-lg shadow-lg w-full max-w-2xl divide-y divide-gray-700">
+       <article className="bg-gray-800 text-white rounded-lg shadow-lg w-full max-w-2xl divide-y p-10 divide-gray-700">
         {accordionData.map((item, i) => (
           <Accordion key={i} title={item.title} content={item.content} />
         ))}
-      </div>
-    </div>
+      </article>
 {/* <Header /> */}
 {/* <MainContent /> */}
 {/* <Footer count={count} handler={handler} /> */}
