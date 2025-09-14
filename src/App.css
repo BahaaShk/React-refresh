@@ -1,5 +1,36 @@
 @import "tailwindcss";
 
-body{
-  color: black;
+body {
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+li{
+  list-style: none;
+}
+
+.btns{
+  padding: 10px 20px;
+  margin-right: 6px;
+  border: none;
+  background-color: transparent;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+
+.btns:hover{
+  background-color: whitesmoke;
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 2px .5px rgb(185, 183, 183);
+}
+
+.btns:active{
+  transform: translateY(0px);
+   box-shadow: inset  2px 2px 2px .5px rgb(185, 183, 183);
 }

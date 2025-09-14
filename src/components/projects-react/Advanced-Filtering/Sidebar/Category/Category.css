@@ -1,0 +1,14 @@
+.sidebar-label-container{
+display: block;
+position: relative;
+padding-left: 35px;
+margin-bottom: 12px;
+cursor: pointer;
+user-select: none;
+}
+
+.sidebar-label-container input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
