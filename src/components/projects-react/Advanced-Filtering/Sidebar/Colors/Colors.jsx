@@ -2,7 +2,33 @@ import React from 'react'
 import './Colors.css'
 const Colors = () => {
   return (
-    <div>Colors</div>
+    <div className='ml-5'>
+      <h2 className='sidebar-title price-title mt-5 text-[22px] mb-5'>Colors</h2>
+      <label className='sidebar-label-container'>
+        <input type="radio" name='testTwo' />
+        <span className="checkmark"></span>All
+      </label>
+      <label className='sidebar-label-container'>
+        <input type="radio" name='testTwo' />
+        <span className="checkmark"></span>Black
+      </label>
+      <label className='sidebar-label-container'>
+        <input type="radio" name='testTwo' />
+        <span className="checkmark"></span>Blue
+      </label>
+      <label className='sidebar-label-container'>
+        <input type="radio" name='testTwo' />
+        <span className="checkmark"></span>Red
+      </label>
+      <label className='sidebar-label-container'>
+        <input type="radio" name='testTwo' />
+        <span className="checkmark"></span>Green 
+      </label>
+      <label className='sidebar-label-container'>
+        <input type="radio" name='testTwo' />
+        <span className="checkmark"></span>White 
+      </label>
+    </div>
   )
 }
 
