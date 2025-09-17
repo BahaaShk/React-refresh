@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <>
     <section className="card-container flex flex-wrap ml-[20rem] mt-[2rem] -z-2">
-      <section className='card m-5 border-2 border-[#ededed] p-5 cursor-pointer'>
+      {/* <section className='card m-5 border-2 border-[#ededed] p-5 cursor-pointer'>
         <img src="https://m.media-amazon.com/images/I/61uw5RDxKQL._AC_UY625_.jpg" alt="Shoe
         " className='w-[13rem] mb-[1rem]'/>
         <div className="card-details">
@@ -29,7 +29,7 @@ const Products = () => {
             </div>
           </section>
         </div>
-         </section>
+         </section> */}
     </section>
     </>
   )

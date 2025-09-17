@@ -1,7 +1,7 @@
 import './Colors.css'
 const Colors = () => {
   return (
-    <div className='ml-3'>
+    <div>
       <h2 className='sidebar-title price-title mt-5 text-[22px] mb-5'>Colors</h2>
       <label className='sidebar-label-container'>
         <input type="radio" name='testThree' />
