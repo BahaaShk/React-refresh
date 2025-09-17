@@ -1,7 +1,6 @@
-import React from 'react'
 import './Sidebar.css'
 import { CgShoppingCart } from 'react-icons/cg'
-import Category from './Category/CAtegory'
+import Category from './Category/Category';
 import Price from './Price/Price'
 import Colors from './Colors/Colors'
 const Sidebar = () => {
