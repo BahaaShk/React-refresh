@@ -3,7 +3,7 @@ const Category = () => {
   return (
     <div>
       <h2 className='text-[22px] mb-5'>Category</h2>
-      <div className='mt-5 '>
+      <div className='mt-5'>
         <label htmlFor="" className='sidebar-label-container'>
           <input type="radio" name='test' />
           <span className='checkmark'></span>All

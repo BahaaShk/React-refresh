@@ -1,0 +1,9 @@
+.sidebar-label-container{
+display: flex;
+gap:5px;
+position: relative;
+padding-left: 5px;
+margin-bottom: 12px;
+cursor: pointer;
+user-select: none;
+}
