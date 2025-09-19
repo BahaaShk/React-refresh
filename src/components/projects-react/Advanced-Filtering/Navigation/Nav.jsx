@@ -1,13 +1,14 @@
-import React from "react";
 import "./Nav.css";
 import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
-const Nav = () => {
+const Nav = ({query,handleInputChange}) => {
   return (
     <nav className=" flex border-b-2 border-[#f3f3f3] justify-around items-center p-5 z-50 ml-8">
       <div className="nav-container ">
         <input
           type="text"
+             onChange={handleInputChange}
+          value={query}
           placeholder="Enter your search.."
           className="search-input p-3 bg-[#f7f6f6] outline-0 mr-5 rounded-md relative w-[14rem]"
         />
