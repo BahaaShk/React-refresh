@@ -34,3 +34,7 @@ li{
   transform: translateY(0px);
    box-shadow: inset  2px 2px 2px .5px rgb(185, 183, 183);
 }
+
+.rating-star{
+  color: gold;
+}

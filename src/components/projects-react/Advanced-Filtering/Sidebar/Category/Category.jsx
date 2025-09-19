@@ -1,29 +1,19 @@
+import Input from '../../components/Input'
 import './Category.css'
-const Category = () => {
+const Category = ({handleChange}) => {
   return (
     <div>
       <h2 className='text-[22px] mb-5'>Category</h2>
-      <div className='mt-5'>
-        <label htmlFor="" className='sidebar-label-container'>
-          <input type="radio" name='test' />
-          <span className='checkmark'></span>All
+      <div className='mt-5 '>
+        <label className="sidebar-label-container">
+          <input onChange={handleChange} type="radio" value="" name="test" />
+          <span className="checkmark"></span>All
         </label>
-        <label htmlFor="" className='sidebar-label-container'>
-          <input type="radio" name='test' />
-          <span className='checkmark'></span>Sneakers
-        </label>
-        <label htmlFor="" className='sidebar-label-container'>
-          <input type="radio" name='test' />
-          <span className='checkmark'></span>Flats
-        </label>
-        <label htmlFor="" className='sidebar-label-container'>
-          <input type="radio" name='test' />
-          <span className='checkmark'></span>Sandals
-        </label>
-        <label htmlFor="" className='sidebar-label-container'>
-          <input type="radio" name='test' />
-          <span className='checkmark'></span>Heels
-        </label>
+      <Input handleChange={handleChange} value={'sneakers'} name={'test'} title={'Sneakers'}/>
+      <Input handleChange={handleChange} value={'flats'} name={'test'} title={'Flats'}/>
+      <Input handleChange={handleChange} value={'heels'} name={'test'} title={'Heels'}/>
+      <Input handleChange={handleChange} value={'sandals'} name={'test'} title={'Sandals'}/>
+
       </div>
     </div>
   )
